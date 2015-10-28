@@ -1,3 +1,4 @@
-
-module.exports = require('./lib/tracer')
-
+module.exports = {
+    wrapRx: require('./run/rx'),
+    viz: require('./run/viz')
+};
